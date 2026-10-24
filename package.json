@@ -1,0 +1,39 @@
+{
+  "name": "koishi-plugin-mcstatus",
+  "version": "0.2.0",
+  "description": "Minecraft 服务器状态查询插件：关键词触发 mcstatus-api，发状态图 / JSON；关键词与请求参数可在控制台表单配置，也能直接复用 NapCat 版 rules.json",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "readme.md"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "minecraft",
+    "mcstatus",
+    "mc"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.18.0"
+  },
+  "koishi": {
+    "description": {
+      "zh": "收到关键词就向 mcstatus-api 请求服务器状态图 / JSON 并发送，关键词与请求参数全部在 Koishi 控制台里配置"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yunxineko/koishi-plugin-mcstatus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yunxineko/koishi-plugin-mcstatus/issues"
+  },
+  "homepage": "https://github.com/yunxineko/koishi-plugin-mcstatus#readme",
+  "author": "yunxineko"
+}
