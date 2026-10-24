@@ -1,6 +1,6 @@
 # koishi-plugin-mcstatus
 
-在 Koishi 里按关键词查 Minecraft 服务器状态：命中关键词 → 向 [mcstatus-api](../) 请求状态图 / JSON → 发到当前会话。
+在 Koishi 里按关键词查 Minecraft 服务器状态：命中关键词 → 向 [mcstatus-api](https://github.com/Plantrian/MCstatus) 请求状态图 / JSON → 发到当前会话。
 
 关键词和每个关键词对应的请求参数**全部在 Koishi 控制台里表单配置**，不用手改 JSON。跟之前那个 NapCat 插件（`napcat-plugin-mcstatus`）是同一套请求逻辑，只是搬到 Koishi 上、配置搬进了控制台。
 
